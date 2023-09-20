@@ -9,4 +9,7 @@ class User:
     
     def set_password(self,password : str):
         ...
+
+    def __int__(self, name, password, email, phone_number):
+        pass
         
